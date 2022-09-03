@@ -17,7 +17,7 @@ return function(hashConfig)
     local blacklistedCount = 0;
     
     local config = shared.hashConfig or hashConfig or {
-        debug = true,
+        debug = false,
         blacklisted = {},
         maxscripts = math.huge,
         scriptslimit = false
