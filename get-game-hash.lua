@@ -74,7 +74,7 @@ end;
 
 --[[
     -- usage
-    local getGameHash = loadstring(game:HttpGet('https://github.com/sylo-rblx/scripts/blob/main/get-game-hash.lua'))();
+    local getGameHash = loadstring(game:HttpGet('https://raw.githubusercontent.com/sylo-rblx/scripts/main/get-game-hash.lua'))();
     
     rconsolewarn(getGameHash({
         debug = true, -- debug scripts info
